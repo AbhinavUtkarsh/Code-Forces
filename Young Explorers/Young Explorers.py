@@ -11,7 +11,6 @@ for _ in range(int(stdin.readline())):
     while i < n:
         if expi[i] == i - l:
             group_count += 1
-            print(l, i)
             l = i
         i += 1
     print(group_count)
